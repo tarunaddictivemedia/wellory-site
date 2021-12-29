@@ -1,0 +1,237 @@
+@import url("//fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.shownavigation {
+  position: relative;
+  overflow: hidden;
+}
+
+.navigation-grp {
+  color: #000000;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-transform: capitalize;
+  text-align: right;
+}
+
+.navigation-grp ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navigation-grp ul > li > a {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  padding: 50px 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navigation-grp ul > li > a {
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  color: #333333;
+}
+
+.navigation-grp ul > li > a:hover {
+  color: #f3654a;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #FCF6EA;
+}
+.container {
+  width: 95%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.sec-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+h1, h2, h3 h4 h5, p, a {
+  font-family: "Manrope", sans-serif;
+}
+.logo-grp a {
+  color: #f3654a;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ededed;
+}
+section.bannercontent {
+  background: #FCF6EA;
+  color: #fff;
+}
+.bannercontent .container, .bannercontent .sec-row {
+  height: 100%;
+}
+.bannercontent .bannerinnr-row h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 134px;
+  line-height: 108%;
+  color: #F3654A;
+  margin-bottom: 60px;
+}
+.bannercontent .bannerinnr-row p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 113.5%;
+  color: #6D2936;
+}
+.bannerinnr-row {
+  max-width: 50%;
+  padding-bottom: 70px;
+}
+.bannerinnr-img {
+  width: 50%;
+}
+section.servicessec {
+  background: #F3654A;
+  padding: 100px 0;
+}
+.header-box h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 108%;
+  color: #6D2936;
+  margin-top: 0;
+}
+.servicessecrelation {
+  background: #FCF6E8;
+  padding: 100px 0;
+}
+.servicessecrelation .header-box {
+  max-width: 700px;
+}
+.bannercontent .sec-row {
+  align-items: flex-end;
+}
+.servicessecrelation .header-box h2 {
+  color: #F3654A;
+}
+.serviceslide__er {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px -10px;
+}
+.serviceslide__er .serviceslide {
+  width: calc(100% /3);
+  padding: 10px 10px;
+  position: relative;
+}
+.serviceslide__er .serviceslide .serviceslide__e {
+  position: relative;
+}
+.serviceslide__er .serviceslide .serviceslide__e h3 {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  margin-bottom: 0;
+  color: #fff;
+  right: 0;
+  left: 0;
+  font-family: Poppins;
+  font-weight: 500;
+}
+.product-info-box {
+  width: calc(70% / 2 - 50px);
+  padding: 30px;
+}
+.servicessecrelation .flex-box.sec-row {
+  justify-content: space-between;
+}
+.product-info-middle-box {
+  width: 30%;
+}
+.product-info-content p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 115.5%;
+  letter-spacing: -0.05em;
+  color: #000000;
+}
+.product-info-content {
+  padding: 50px 0;
+}
+.product-info-content strong {
+  font-weight: 500;
+}
+.product-info-image img {
+  width: 100%;
+}
+.product-info-image {
+  background: #f3654a;
+}
+section.servicessec.servicealllisting {
+  background: #fcf6ea;
+}
+.servicealllisting .header-box h2 {
+  color: #f3654a;
+  text-align: center;
+}
+.header-box p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0;
+}
+.header-box p a {
+  color: #fff;
+  text-decoration: none;
+  background: #f3654a;
+  padding: 20px;
+  border: 1px solid #333;
+  letter-spacing: 1px;
+}
+.content.header-box p {
+  text-align: left;
+}
+.serviceimg {
+  margin-bottom: 60px;
+}
+.content.header-box h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+}
